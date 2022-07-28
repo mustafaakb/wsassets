@@ -2,7 +2,10 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
+    "core": "libs/core",
     "one": "apps/one",
-    "one-e2e": "apps/one-e2e"
+    "one-e2e": "apps/one-e2e",
+    "two": "apps/two",
+    "two-e2e": "apps/two-e2e"
   }
 }
